@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CrispoClient</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_name">Your Name</string>
+    <string name="Home_Activity">HomeActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Popular_Image"> Popular Categories </string>
+    <string name="Best_Deals"> Best Deals </string>
+    <string name="price_value">1000</string>
+    <string name="size">Size</string>
+    <string name="action_clear_cart">Clear Cart</string>"
+    <string name="imagev">favfooood</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_foodlist">FoodList</string>
+    <string name="menu_fooddetail">FoodDetail</string>
+    <string name="menu_cart">Cart</string>
+    <string name="Sign_out">Sign out</string>
+    <string name="menu_Comment_list">Comment</string>
+    <string name="add_on">Addon</string>
+    <string name="Category_menu">Categories</string>
+    <string name="menus">Menu</string>
+
+    <string name="medium">Medium</string>
+    <string name="description">Description</string>
+    <string name="todo">TODO</string>
+    <string name="example">Example</string>
+    <string name="show_comments">Show Comments</string>
+    <string name="large">Large</string>
+    <string name="Payment_Method">Payment Method</string>
+    <string name="Delivery_Method">Delivery Method</string>
+    <string name="Medium">Medium</string>
+    <string name="Large">Large</string>
+    <string name="Search">Search</string>
+
+
+
+
+    <string name="cart">Cart</string>
+</resources>

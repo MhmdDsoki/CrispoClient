@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "853033103834",
+    "firebase_url": "https://crispo-372bd.firebaseio.com",
+    "project_id": "crispo-372bd",
+    "storage_bucket": "crispo-372bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853033103834:android:f9b17af9a5441beed9d0e3",
+        "android_client_info": {
+          "package_name": "com.dsoki.crispo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853033103834-cs9tvh9kl2n2qmcko2fpultpb31t1vaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsoki.crispo",
+            "certificate_hash": "6df07983dbcf3c257a9778f2c71c7e372397ea8e"
+          }
+        },
+        {
+          "client_id": "853033103834-ck0t0sn223d981prv1gttgg9p4f1r8n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxXVtYxVYJHvFFSCfFepbuJo_0ZriX09g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853033103834-ck0t0sn223d981prv1gttgg9p4f1r8n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853033103834:android:4b8fe839cf366dfdd9d0e3",
+        "android_client_info": {
+          "package_name": "com.dsoki.crispoclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853033103834-ck0t0sn223d981prv1gttgg9p4f1r8n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxXVtYxVYJHvFFSCfFepbuJo_0ZriX09g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853033103834-ck0t0sn223d981prv1gttgg9p4f1r8n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

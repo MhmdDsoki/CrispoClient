@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="@color/comment_white"
+    android:id="@+id/bottom_id"
+    >
+    <item
+        android:title="Home"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        android:title="@string/menus"
+        app:cnb_textColor="#fff"/>
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="@string/menu_cart"
+        app:cnb_textColor="#fff"/>
+</menu>

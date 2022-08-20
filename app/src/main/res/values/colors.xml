@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background_color">#F5f5f5</color>
+    <color name="overlaycolor">#55333635</color>
+    <color name="white">#ffffff</color>
+    <color name="comment_white">#FFAAFF</color>
+    <color name="searchBarPrimaryColor">#FFFFFF</color>
+    <color name="descriptionTextColor">#80141627</color>
+    <color name="commentTextColor">#D9141627</color>
+    <color name="hintTextColor">#55000000</color>
+    <color name="dialog_header_color">#C5C5C5</color>
+    <color name="dialog_text_color">#464646</color>
+    <color name="colorAccen">#42FFEF</color>
+
+</resources>

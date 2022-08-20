@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.dsoki.crispoclient.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_menu" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.dsoki.crispoclient.ui.menu.MenuFragment"
+        android:label="@string/Category_menu"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.dsoki.crispoclient.ui.menu.MenuFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_foodList"
+        android:name="com.dsoki.crispoclient.ui.foodList.FoodListFragment"
+        android:label="@string/menu_foodlist"
+        tools:layout="@layout/fragment_foodlist" />
+    <fragment
+        android:id="@+id/nav_commentList"
+        android:name="com.dsoki.crispoclient.ui.comment.CommentFragment"
+        android:label="@string/menu_Comment_list"
+        tools:layout="@layout/layout_show_comments" />
+    <fragment android:id="@+id/nav_food_detail"
+        android:name="com.dsoki.crispoclient.ui.fooddetail.FoodDetailFragment"
+        android:label="@string/menu_fooddetail"
+        tools:layout="@layout/fragment_fooddetail"/>
+    <fragment android:id="@+id/nav_cart"
+        android:name="com.dsoki.crispoclient.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart"/>
+</navigation>
